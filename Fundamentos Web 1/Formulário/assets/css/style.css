@@ -1,3 +1,4 @@
+/*Estilo da página index*/
 *{
     margin: 0px;
 }
@@ -27,6 +28,10 @@ li:hover{
     font-size: 40px;
 }
 
+.text{
+    text-align: center;
+}
+
 a{
     text-decoration: none;
 }
@@ -37,7 +42,9 @@ ul{
 
 .container{
     display: flex;
+    flex-flow: row;
     justify-content: center;
+    align-items: center;
 }
 .imagem{
    margin-right:
@@ -47,3 +54,4 @@ ul{
 .mt{
 margin-top: 30px;
 }
+/*Estilo da página index*/
