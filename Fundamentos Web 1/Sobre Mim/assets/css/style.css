@@ -1,4 +1,17 @@
 /*Estilos da página index*/
+*{
+    margin: 0px;
+}
+
+#menu {
+        padding: 15px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+       
+}
+
+.h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
 
 
 .center{
@@ -16,6 +29,11 @@
     align-items: center;
 }
 
+
+.texto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #menu li {
     display: inline;
     padding: 15px;
@@ -29,13 +47,37 @@
 }
 
 #menu li a:hover{
-    color: gray;
+    color: rgb(182, 175, 175);
 }
+
+#gradiente {
+    background-image: linear-gradient(#d52800,#fd9954, #ffffff, #d261a3, #a30061);
+  }
+
+#cssAnimation {
+    width: 50px;
+    height: 50px;
+    background-color: #d52800;
+    animation-name: example;
+    animation-duration: 4s; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {background-color:#d52800; left:0px; top:0px;}
+    25%  {background-color:#fd9954; left:200px; top:0px;}
+    50%  {background-color:#ffffff; left:200px; top:200px;}
+    75%  {background-color:#d261a3; left:0px; top:200px;}
+    100% {background-color:#a30061; left:0px; top:0px;}
+  }
 
 .padding30{
     padding: 30px;
 }
 
+.padding10{
+    padding: 10px;
+}
 .borda50{
     border-radius: 50%;
 }
@@ -55,8 +97,15 @@
     margin-bottom: 50px;
 }
 
+.rodape{
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
 
 /* Estilos da página contato*/
 .m-left-50{
     margin-left: 50px;
 }
+
